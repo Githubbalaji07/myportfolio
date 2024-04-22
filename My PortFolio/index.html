@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2b951f786b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">PortFolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i id="id2"  class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i id="id2" class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+           <div class="header-text">
+                <p>UI/UX Designer</p>
+                <p>Font End Web Devloper</p>
+                <p>Java Full Stack Devloper</p>
+                <h1>Hi, I'm <span>Balaji</span> Chavan from India</h1>
+
+           </div>
+        </div>
+    </div>
+
+    <!-- About Me -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="myimage.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am Balaji Chavan, I have completed my graduation from the Government College of engineering Jalgaon with specialization in electronic and telecommunication engineering. I know very well basic knowledge of C++, Java , Data structure and Algoritham.
+                        I am also completed my internship in front end web development. By using HTML, CSS, JavaScript and Bootstrap. I make various front end project and all this live on my Github.
+                        I'm a passionate Java and web developer with a strong track record of building robust and user-friendly web applications. With two years of hands-on experience, I've had the opportunity to work on a diverse range of projects and collaborate with talented teams to deliver cutting-edge solutions </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('internship')">Internship</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web Interfaces</li>
+                            <li><span>Front-End Web Development</span><br>Designing Websites Using Html,CSS,JavaScript</li>
+                            <li><span>Java Full Stack Development</span><br>Designing Full Stack Projects</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="internship">
+                        <ul>
+                            <li><span>Font End Web Development</span><br>Designing Web Interfaces</li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>BTech from Govt College of Engi. Jalagaon</li>
+                            <li><span>2020</span><br>Diploma from Purnamal Lahoti Govt. Poly. Latur</li>
+                            <li><span>2016</span><br>10th from Shree Shivaji High School, Latur</li>
+                        </ul>
+                    </div>
+                </div>               
+            </div>
+        </div>
+    </div>
+ 
+
+<!--services  -->
+<div id="services">
+    <div class="container">
+         <h1 class="sub-title">My Services</h1>
+         <div class="services-list"> 
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam temporibus iste sapiente quo, blanditiis perferendis fugit exercitationem itaque iusto asperiores nulla adipisci voluptatem quasi corporis nemo similique nobis tenetur odit!</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam temporibus iste sapiente quo, blanditiis perferendis fugit exercitationem itaque iusto asperiores nulla adipisci voluptatem quasi corporis nemo similique nobis tenetur odit!</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>Java Full Stack Development</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam temporibus iste sapiente quo, blanditiis perferendis fugit exercitationem itaque iusto asperiores nulla adipisci voluptatem quasi corporis nemo similique nobis tenetur odit!</p>
+                <a href="#">learn more</a>
+            </div>
+         </div>
+    </div>
+</div>
+
+
+<!-- -----------portfolio------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png">
+                <div class="layer">
+                    <h3>Social Media Website</h3>
+                    <p>The website connect you to the talented people around the world.
+                        Downlod it from play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png">
+                <div class="layer">
+                    <h3>Music UI/UX</h3>
+                    <p>The website connect you to the talented people around the world.
+                        Downlod it from play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping Website</h3>
+                    <p>The website connect you to the talented people around the world.
+                        Downlod it from play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- -------------Contact form----------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>balajichavan598@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9607630757</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-square-twitter"></i> </a>
+                    <a href=""><i class="fa-brands fa-instagram"></i> </a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="BalajiChavan.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            
+    
+            <div class="contact-right">  
+                <form>
+                    <input type="text" name="Name" placeholder="Enter Name" required>
+                    <input type="email" name="Email" placeholder="Enter Email" required>
+                    <textarea name="Message" rows="6" placeholder="Enter Message"></textarea>
+                    <button type="submit" class="btn btn2">Submmit</button>
+                </form>  
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright @ Balaji. Made <i id="id1" class="fa-regular fa-heart"></i> by Balaji Chavan</p>
+    </div>
+</div>
+
+
+<!-- --------------for phone size---- -->
+
+
+
+
+
+
+
+    <script>
+        
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(var tablink of tablinks){
+                tablink.ClassList.remove("active-link");
+            }
+
+            for(var tabcontent of tabcontents){
+                tabcontent.ClassList.remove("active-tab");
+            }
+
+            event.currentTarget.ClassList.add("active-link");
+            document.getElementById(tabname).ClassList.add("active-tab"); 
+        }
+    </script>
+
+    <script>
+
+        var sidmenu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidmenu.style.right="0";
+        }
+
+        function closemenu(){
+            sidmenu.style.right="-200px";
+        }
+
+    </script>
+</body>
+</html>
